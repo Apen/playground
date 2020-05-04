@@ -23,6 +23,6 @@
   },
   "scripts": {
     "check-cs": "vendor/bin/ecs check --ansi",
-    "phpstan": "vendor/bin/phpstan analyse . --ansi"
+    "phpstan": "vendor/bin/phpstan analyse Classes --ansi"
   }
 }
