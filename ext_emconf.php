@@ -1,11 +1,11 @@
 <?php
 
-$EM_CONF['apensoap'] = [
-    'title'            => 'apensoap',
+$EM_CONF['apenactions'] = [
+    'title'            => 'apenactions',
     'description'      => '',
     'category'         => 'plugin',
     'shy'              => 0,
-    'version'          => '1.0.1',
+    'version'          => '1.0.5',
     'dependencies'     => '',
     'conflicts'        => '',
     'priority'         => '',
