@@ -14,5 +14,5 @@ jobs:
         env:
           SECRET_USERNAME: ${{ secrets.USERNAME }}
           SECRET_PASSWORD: ${{ secrets.PASSWORD }}
-          EXTENSION_KEY: 'apensoap'
+          EXTENSION_KEY: 'apenactions'
           UPLOAD_MESSAGE: 'Automatic release built from GitHub. See the CHANGELOG.md file that is shipped with this release for details.'
