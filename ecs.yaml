@@ -11,6 +11,7 @@ parameters:
     PHP_CodeSniffer\Standards\Generic\Sniffs\CodeAnalysis\AssignmentInConditionSniff.FoundInWhileCondition: null
     PhpCsFixer\Fixer\PhpUnit\PhpUnitStrictFixer: null
     PhpCsFixer\Fixer\PhpUnit\PhpUnitTestAnnotationFixer: null
+    PhpCsFixer\Fixer\Strict\DeclareStrictTypesFixer: null
 
     # buggy with comment only follow up
     SlevomatCodingStandard\Sniffs\Classes\TraitUseSpacingSniff.IncorrectLinesCountAfterLastUse: null
