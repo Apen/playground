@@ -1,0 +1,17 @@
+name: Upload to TYPO3 ter
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  ter:
+    runs-on: ubuntu-latest
+    steps:
+      uses: the-coding-owl/action-typo3-extension-repository-upload@0.0.1
+        env:
+          SECRET_USERNAME: ${{ secrets.t3username }}
+          SECRET_PASSWORD: ${{ secrets.t3password }}
+          EXTENSION_KEY: 'apensoap'
+          UPLOAD_MESSAGE: 'Automatic release built from GitHub. See the CHANGELOG.md file that is shipped with this release for details.'
