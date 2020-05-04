@@ -1,0 +1,23 @@
+{
+  "name": "apen/playground",
+  "description": "Test some things :-)",
+  "authors": [
+    {
+      "name": "Yohann Cerdan",
+      "email": "yohann@site-ngo.fr",
+      "role": "Developer",
+      "homepage": "https://www.site-ngo.fr"
+    }
+  ],
+  "license": "GPL-2.0+",
+  "require": {
+    "php": ">=7.0.0 <=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  },
+  "require-dev": {
+    "symplify/easy-coding-standard": "^7.3"
+  }
+}
